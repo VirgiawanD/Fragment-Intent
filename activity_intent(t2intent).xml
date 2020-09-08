@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baca Novel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/sololeveling"/>
+
+    <TextView
+        android:layout_below="@+id/gambar"
+        android:id="@+id/solo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solo Leveling"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textStyle="italic"/>
+
+    <Button
+        android:layout_below="@+id/solo"
+        android:id="@+id/explicitintent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Tekan disini untuk membaca di app"
+        android:background="#000000"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:layout_below="@+id/explicitintent2"
+        android:id="@+id/implicitintent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Tekan disini untuk membaca di web"
+        android:background="#000000"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
